@@ -15,8 +15,12 @@ iv. LSTM: Processes the fused, temporally-aware embeddings to make the final hou
 
 **Data 	Source**
 
-Electricity	(Load, PV, wind, etc.):	https://gitlab.com/dlr-ve/esy/open-brazil-energy-data/open-brazilian-energy-data
-Grid	(Line length, capacity, efficiency, etc.): https://gitlab.com/dlr-ve/esy/open-brazil-energy-data/open-brazilian-energy-data
-Weather	(Air temperature, pressure, rainfall, etc.): https://www.kaggle.com/datasets/gregoryoliveira/brazil-weather-information-by-inmet?resource=download
-Socio-economic	(State-wise GDP): https://www.ibge.gov.br/en/statistics/economic/national-accounts/16855-regional-accounts-of-brazil.html
-Population	(State-wise population): https://www.ibge.gov.br/en/statistics/social/population/18448-estimates-of-resident-population-for-municipalities-and-federation-units.html?edicao=28688
+i. Electricity	(Load, PV, wind, etc.):	https://gitlab.com/dlr-ve/esy/open-brazil-energy-data/open-brazilian-energy-data
+
+ii. Grid	(Line length, capacity, efficiency, etc.): https://gitlab.com/dlr-ve/esy/open-brazil-energy-data/open-brazilian-energy-data
+
+iii. Weather	(Air temperature, pressure, rainfall, etc.): https://www.kaggle.com/datasets/gregoryoliveira/brazil-weather-information-by-inmet?resource=download
+
+iv. Socio-economic	(State-wise GDP): https://www.ibge.gov.br/en/statistics/economic/national-accounts/16855-regional-accounts-of-brazil.html
+
+v. Population	(State-wise population): https://www.ibge.gov.br/en/statistics/social/population/18448-estimates-of-resident-population-for-municipalities-and-federation-units.html?edicao=28688
