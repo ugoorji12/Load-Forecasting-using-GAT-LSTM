@@ -15,16 +15,16 @@ logging.basicConfig(level=logging.INFO)
 def load_config():
     """Load configuration settings."""
     return {
-        'dynamic_data_path': '/home/ueorji/newGAT-LSTM/data/dynamic_data.csv',
-        'static_data_path': '/home/ueorji/newGAT-LSTM/data/static_data.csv',
-        'grid_data_path': '/home/ueorji/newGAT-LSTM/data/grid_df.csv',
+        'dynamic_data_path': '.../dynamic_data.csv',
+        'static_data_path': '.../static_data.csv',
+        'grid_data_path': '.../grid_df.csv',
         'sequence_length': 24,
         'train_start_date': '2019-01-01',
         'train_end_date': '2019-12-31',
         'val_start_date': '2020-01-01',
         'val_end_date': '2020-06-30',
         'test_start_date': '2020-07-01',
-        'output_dir': '/home/ueorji/newGAT-LSTM/outputs/plots'
+        'output_dir': '.../outputs/plots'
     }
 
 
@@ -216,6 +216,7 @@ def preprocess_data(config):
     'WIND SPEED (m/s)(std)', 'year', 'month', 'day', 'hour', 'dayofweek',
     'weekofyear', 'quarter', 'is_holiday', 'season', 'state_id',
     'total_plant_capacity', 'population', 'GDP']  # Add your features list here
+    
     feature_scaler = scale_features(train_data, val_data, test_data, features_to_scale)
     target_scaler = scale_targets(train_data, val_data, test_data)
 
