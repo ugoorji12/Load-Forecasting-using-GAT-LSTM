@@ -32,7 +32,7 @@ class GAT_LSTM(nn.Module):
         gat_1hop_out_1 = self.gat_1hop_1(node_features, edge_index, transformed_edge_attr)
         gat_1hop_out_1 = self.gat_dropout(gat_1hop_out_1)
 
-        # GAT layer 1-hop_2 neighbors (stacking for deeper relationships)
+        # GAT layer 1-hop_2 neighbors
         gat_1hop_out_2 = self.gat_1hop_2(node_features, edge_index, transformed_edge_attr)
         gat_1hop_out_2 = self.gat_dropout(gat_1hop_out_2)
 
