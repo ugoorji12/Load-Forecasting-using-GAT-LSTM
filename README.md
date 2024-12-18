@@ -13,7 +13,7 @@ iii. Spatial and Temporal Fusion: Combines the graph-derived embeddings with the
 iv. LSTM: Processes the fused, temporally-aware embeddings to make the final hourly power load prediction.
 
 
-**Data 	Source**
+**Data 	Sources**
 
 i. Electricity	(Load, PV, wind, etc.):	https://gitlab.com/dlr-ve/esy/open-brazil-energy-data/open-brazilian-energy-data
 
