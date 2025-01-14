@@ -1,4 +1,4 @@
-# gat_lstm_model.py
+# gat_lstm_model_early_fusion.py
 import torch
 import torch.nn as nn
 from torch_geometric.nn import GATConv
