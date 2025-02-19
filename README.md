@@ -1,6 +1,6 @@
 **GAT-LSTM Model for Power Load Forecasting**
 
-This repository contains the implementation of the GAT-LSTM model, a hybrid approach that combines Graph Attention Networks (GAT) and Long Short-Term Memory Networks (LSTM) for short-term forecasting of power load. The model leverages the spatio-temporal dependencies in energy systems, incorporating graph-structured data (e.g., power grid topology) and temporal sequences (e.g., historical energy consumption and weather data). **Detailed explanation of the model is captured in the paper**: https://doi.org/10.48550/arXiv.2502.08376
+This repository contains the implementation of the GAT-LSTM model, a hybrid approach that combines Graph Attention Networks (GAT) and Long Short-Term Memory Networks (LSTM) for short-term forecasting of power load. The model leverages the spatio-temporal dependencies in energy systems, incorporating graph-structured data (e.g., power grid topology) and temporal sequences (e.g., historical energy consumption and weather data). **Detailed explanation of the model and results are captured in the paper**: https://doi.org/10.48550/arXiv.2502.08376
 
 **Features**
 
