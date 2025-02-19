@@ -24,3 +24,6 @@ iii. Weather	(Air temperature, pressure, rainfall, etc.): https://www.kaggle.com
 iv. Socio-economic	(State-wise GDP): https://www.ibge.gov.br/en/statistics/economic/national-accounts/16855-regional-accounts-of-brazil.html
 
 v. Population	(State-wise population): https://www.ibge.gov.br/en/statistics/social/population/18448-estimates-of-resident-population-for-municipalities-and-federation-units.html?edicao=28688
+
+
+**Detailed explanation of the model is captured in the paper**: https://doi.org/10.48550/arXiv.2502.08376
